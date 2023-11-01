@@ -1,12 +1,9 @@
-let Accountnumber = 9978193564;
-let ifsc = "SBI000";
-const email = "ashokvanjara@2124@gail.com";
-const password = "ashok@2124";
-const address = "Dachka meghraj";
-const city = "modasa";
-const collge = "govenment polytechnic Dahod";
-const deprtment = "computer engineering";
-// const cannot be changed
-Accountnumber = 1234;
-ifsc = "ashok@1234"
-console.table([Accountnumber, ifsc, email, password, address, city, collge, deprtment]);
+let name = "ashok vanjara";
+const id = 1;
+const Department = "computer";
+const village = "Dachaka";
+const study = "computer engineering";
+let collge = "gpd"
+let Monumber =9978193564;
+
+console.table(["name is "+name,"and id is "+id,"The department is "+Department,"or village name is"+village,"He doing"+study,collge,Monumber]);
