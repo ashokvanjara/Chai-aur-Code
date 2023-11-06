@@ -17,9 +17,23 @@ let names = ["ashok","ajaya","naresh","vikas",12,true];
 // names.shift();
 // console.log(names);
 
-let newArray = [1,2,3,4,5,6,7,8,9,10,11];
+let newArray = [1,2,3,4,5,6,7,8,9];
 
 // console.log(newArray.includes(9));
 // console.log(newArray.indexOf(9));
-let connect = newArray.join();
-console.log(typeof connect);
+
+
+// let connect = newArray.join();
+// console.log(typeof connect);
+
+
+// slice or splice 
+// console.log("original Array",newArray);
+const myarray = newArray.slice(1,3);
+
+console.log("original Array",newArray);
+console.log("Slice Array",myarray);
+
+const myarray2 = newArray.splice(1,3);
+
+console.log("spllice Array",myarray2);
