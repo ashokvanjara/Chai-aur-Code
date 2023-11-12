@@ -1,22 +1,47 @@
-// crating a objects 
-const mysym = Symbol("key1")
-const objects = {
+const mysysm =Symbol ("key1");
+
+const jsuser = {
     name:"ashokvanjara",
-
-    "fullname":"this is ashok vanjara",
-    [mysym] : "mykey",
-    Mo:997818444,
-    study:"COmputer enginerring",
-    department:"javascript",
-    email:"ashokvanjara@gmail.com",
-    village:"Dachaka"
+    [mysysm] : "mykey1",
+    number:"9978193564",
+    adhar_name:"ashokvanjara12",
+    status:"marrid",
+    gender:"Male",
+    hebbits:"coding",
+    smoking:"No",
+    routin:""
 }
+// we are accesing of two types
+//console.log(jsuser.name);this is not good of way
 
-// console.log(objects.Mo);
-console.log(objects["name"]);
-// console.log(objects["fullname"]);
-// console.log(objects[mysym]);
-// objects.email = "ashokvajara@2124";
-// Object.freeze(objects)            // freeze objects Data's
-// objects.email = "ashok12@gmail";
-// console.log(objects);
+// console.log(jsuser["name"]);
+// console.log(jsuser["number"]);
+// console.log(jsuser["adhar_name"]);
+// console.log(jsuser["status"]);
+// console.log(jsuser[mysysm]);
+
+
+// chanage the object values
+// Object.freeze(jsuser);
+// console.log(jsuser);
+
+jsuser.adhar_name = "avivanjara";
+// console.log(jsuser);
+
+// staring the function
+
+
+// jsuser.greeting = function(){
+//     console.log("hello world");
+// }
+// console.log(jsuser.greeting());
+
+// jsuser.greetingTwo = function(){
+//     console.log(`hello ${this.name}`);
+// }
+// console.log(jsuser.greetingTwo());
+jsuser.dewali = function(){
+    console.log(`Hello ${this.adhar_name}`)
+    console.log(`is ${this.name}`);
+}
+console.log(jsuser.dewali());
