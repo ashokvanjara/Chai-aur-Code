@@ -1,5 +1,5 @@
-// const programing  = ["java","python","js"];
-// const motherTang = ["Hindi","English","marathi"];
+const programing  = ["java","python","js"];
+const motherTang = ["Hindi","English","marathi"];
 
 // programing.push(motherTang);
 // console.log(programing);
@@ -8,8 +8,8 @@
 // const languages = programing.concat(motherTang);
 // console.log(languages);
 
-// const languages = [...programing,...motherTang];
-// console.log(languages);
+const languages = {...programing,...motherTang};
+console.log(languages);
 
 // const languages = [12,3,5,5,[54,56],54,1,[222]]
 // const languages1  = languages.flat(Infinity);
