@@ -1,9 +1,22 @@
-// creating a function
+// function Sum() {
+//          console.log("shok");
+// };
+// Sum();
 
-function sum(number1, number2) {
-   // console.log(number1+number2);   
-   let result = number1 + number2
-   return result;
+function addTwonumbers(number1, number2) {
+   // console.log(number1 + number2)
+
+   // let sumOf = number1 + number2;
+   // return sumOf;
+
+   return number1 + number2;
 }
- const sumres = sum(12, 3);
-console.log(sumres);
+const result = addTwonumbers(12, 25);
+// console.log("Result", result);
+
+
+function DivideTwonumbers(num11, num2) {
+   return num11 / num2;
+}
+let dRes = DivideTwonumbers(12, 3);
+console.log(dRes);
