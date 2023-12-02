@@ -12,5 +12,6 @@ let usertwo= userone;
 
 usertwo.email=  "ashokvanjara@gmail.com";
 
-console.log(userone.email,"user id is :" + userone.id);
+console.log(userone.id);
+console.log(userone.email);
 console.log(usertwo.email);

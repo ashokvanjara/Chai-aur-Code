@@ -1,8 +1,20 @@
-// creating a new variable
-const a = 12;
-const b = 12;
-let c = true;
-let d = 3.11455
+// const number = 12124;
+// let mobile = 9978193564;
+
+// console.table([number,mobile])
 
 
-console.table([a,b,c,d]);
+
+const userTider = {
+        name:"ashok",
+        mo:997855,
+        email:"ashok@gmail.com",
+        collage:"gpd",
+
+        welcome:function(){
+            console.log(`${this.name}`);
+        }
+
+}
+// console.log(userTider);
+console.table([userTider.welcome])
