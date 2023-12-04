@@ -1,11 +1,37 @@
-const Tinderuser = {
-    username: "ashok",
-    price: 9999,
+const sangita = {
+    Hname: "ashok",
+    status: "married",
 
-    wecomeMessage: function () {
-            console.log(`${this.username} , welcome to website`);
+    Welcomemeessage: function () {
+        console.log(`${this.Hname},Husband name`);
+        console.log(`${this.status},`);
+        console.log("balnk", this);
     }
 }
-Tinderuser.wecomeMessage();   
+// sangita.Welcomemeessage();
+
+// Change the context value
+
+// sangita.Hname = "aviavanjara";
+// sangita.Welcomemeessage()
 
 
+
+
+function Dhokla() {
+    // console.log(this);
+}
+Dhokla();
+// this is Arrow function
+
+const ashok = (num1,num2) => {
+    console.log("The result is ",num1+num2);
+}
+ashok(12,45)
+
+
+const ashok12 = () =>{
+    console.log("ashok");
+}
+
+ashok12()
